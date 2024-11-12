@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    background: #d25cbe;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    color: #d25cbe;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #d25cbe;
+    color: #fff;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: #f44336;
+    font-weight: bold;
+}
